@@ -52,7 +52,7 @@ def parse_work_hours(row, dates):
     from datetime import datetime
 
     work_schedule = []
-    vienna_tz = pytz.timezone("Europe/Vienna")
+    vienna_tz = pytz.timezone("Etc/GMT-2")
 
     for i, day in enumerate(row[2:]):
         if "-" in day and dates[i] is not None:
