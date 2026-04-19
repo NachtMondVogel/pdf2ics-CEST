@@ -12,3 +12,6 @@ Einfaches GUI für Quelldatei, Textsuche und Speicherort. Option zum Überschrei
 
 #### v1.2
 Package Import Optimierung für bessere Performance. MacOS .App File zum Release hinzugefügt.
+
+#### v1.2.1
+Changed Timezone Etc/GMT-2
