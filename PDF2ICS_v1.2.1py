@@ -88,7 +88,7 @@ def create_ics_file(events, output_filename, overwrite):
 
     for start_time, end_time in events:
         event = Event()
-        event.add("summary", "Dienst")
+        event.add("summary", f"Dienst (\n{search_entry.get()}")
         event.add("dtstart", start_time)
         event.add("dtend", end_time)
         cal.add_component(event)
